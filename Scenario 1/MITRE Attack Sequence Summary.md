@@ -24,7 +24,7 @@ flowchart TD
     style MITRE fill:#85C1E9,stroke:#000,stroke-width:2px
     style Controls fill:#82E0AA,stroke:#000,stroke-width:2px
 
-    Reconnaissance[Reconnaissance] -->|Identify Solari Health 360 app| Weaponization[Weaponization]
+    Reconnaissance[Reconnaissance] -->|Identify Delta Emma Health app| Weaponization[Weaponization]
     Weaponization[Weaponization] -->|Craft exploit for known vulnerabilities| Delivery[Delivery]
     Delivery[Delivery] -->|Deploy phishing campaign targeting app users| Exploitation[Exploitation]
     Exploitation[Exploitation] -->|Trick users into downloading malware| Installation[Installation]
